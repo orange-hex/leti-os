@@ -1,6 +1,6 @@
 #!/bin/bash
 
 g++ -c ./test.cpp
-g++ -o test test.o -lpthread
+g++ -o test.out test.o -lpthread
 
 echo "Compilation complete!"
